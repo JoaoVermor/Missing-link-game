@@ -1,0 +1,3 @@
+/home/joao/Downloads/example_code/build/CMakeFiles/Elo_Maluco.dir
+/home/joao/Downloads/example_code/build/CMakeFiles/edit_cache.dir
+/home/joao/Downloads/example_code/build/CMakeFiles/rebuild_cache.dir
