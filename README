@@ -1,23 +1,17 @@
-#Install the following packages:
+Projeto de Interface Gráfica em C++ com OpenGL e GLUT
 
-sudo apt-get install cmake build-essential libgl1-mesa-dev freeglut3 libxmu-dev libxi-dev libglm-dev
+Este projeto implementa uma interface gráfica interativa em C++ utilizando OpenGL e GLUT. O foco principal está na criação de uma cena 3D com objetos como cubos, além de elementos de interface 2D, como botões, que facilitam a interação do usuário.
 
-#Generate makefile by cmake
+Funcionalidades
 
-mkdir build
-cd build
-cmake ..
+Renderização 3D de Objetos: A cena principal contém cubos renderizados em 3D, com perspectiva ajustada para exibir uma visualização realista.
+Interface 2D para Botões: Botões são renderizados sobrepostos aos objetos 3D, utilizando projeção ortogonal para uma interface clara e não interferente.
+Eventos de Mouse: Implementação de eventos de movimento do mouse e clique, permitindo manipulação dos objetos e interação com a interface.
+Desenho Condicional: A renderização da interface é cuidadosamente ajustada para evitar que elementos 3D sobreponham botões, garantindo visibilidade.
+Tecnologias
+Linguagem: C++
+Bibliotecas: OpenGL e GLUT
 
-# Compile:
+Objetivo
 
-make
-
-# execute:
-
-./Elo_Maluco
-
-
-it's all!
-
-
-
+Este projeto serve como uma base para aplicações gráficas que requerem renderização de objetos 3D com uma camada de interface de usuário 2D, útil para jogos, simulações e outras interfaces visuais.
